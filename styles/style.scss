@@ -44,8 +44,9 @@ body {
                 gap: 10px;
                 align-items: center;
                 justify-content: space-evenly;
+                padding: 10px;
 
-                h2{
+                h2 {
                     font-size: 58px;
                 }
 
@@ -81,7 +82,7 @@ body {
                     gap: 20px;
                     justify-content: space-around;
 
-                    #register-form__btn-cancel {
+                    .register-form__btn-cancel {
                         background: rgb(182, 99, 32);
                         color: white;
                         font-size: 18px;
@@ -94,7 +95,20 @@ body {
                         }
                     }
 
-                    #register-form__btn-next {
+                    .register-form__btn-next {
+                        background: rgb(48, 87, 48);
+                        color: white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        padding: 10px;
+                        border: none;
+
+                        &:hover {
+                            background-color: rgb(69, 146, 69);
+                        }
+                    }
+
+                    .register-form__btn-enviar{
                         background: rgb(48, 87, 48);
                         color: white;
                         font-size: 18px;

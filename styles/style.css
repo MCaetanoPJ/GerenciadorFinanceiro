@@ -41,6 +41,7 @@ body main .panels .register-form {
   gap: 10px;
   align-items: center;
   justify-content: space-evenly;
+  padding: 10px;
 }
 body main .panels .register-form h2 {
   font-size: 58px;
@@ -73,7 +74,7 @@ body main .panels .register-form .register-form__buttons {
   gap: 20px;
   justify-content: space-around;
 }
-body main .panels .register-form .register-form__buttons #register-form__btn-cancel {
+body main .panels .register-form .register-form__buttons .register-form__btn-cancel {
   background: rgb(182, 99, 32);
   color: white;
   font-size: 18px;
@@ -81,10 +82,10 @@ body main .panels .register-form .register-form__buttons #register-form__btn-can
   padding: 10px;
   border: none;
 }
-body main .panels .register-form .register-form__buttons #register-form__btn-cancel:hover {
+body main .panels .register-form .register-form__buttons .register-form__btn-cancel:hover {
   background-color: rgb(117, 68, 27);
 }
-body main .panels .register-form .register-form__buttons #register-form__btn-next {
+body main .panels .register-form .register-form__buttons .register-form__btn-next {
   background: rgb(48, 87, 48);
   color: white;
   font-size: 18px;
@@ -92,7 +93,18 @@ body main .panels .register-form .register-form__buttons #register-form__btn-nex
   padding: 10px;
   border: none;
 }
-body main .panels .register-form .register-form__buttons #register-form__btn-next:hover {
+body main .panels .register-form .register-form__buttons .register-form__btn-next:hover {
+  background-color: rgb(69, 146, 69);
+}
+body main .panels .register-form .register-form__buttons .register-form__btn-enviar {
+  background: rgb(48, 87, 48);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+body main .panels .register-form .register-form__buttons .register-form__btn-enviar:hover {
   background-color: rgb(69, 146, 69);
 }
 body main .panels .demo-field {

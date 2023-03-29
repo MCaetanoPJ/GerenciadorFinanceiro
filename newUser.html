@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,44 @@
     <link rel="stylesheet" href="styles/style.css">
     <title>Cadastro</title>
 </head>
+
 <body>
     <header>
         <h1>MAJO FINANÇAS</h1>
     </header>
 
     <main>
-
-
         <div class="panels">
-        <section class="register-form">
-            <h2>Insira seus dados</h2>
-            
-            <div class="register-form__form1" >
-                <input type="text" class="register-form__inp-nome" placeholder="Informe seu Nome"> 
-                <input type="text" class="register-form__inp-cpf" placeholder="Informe seu CPF"> 
-                <input type="email" class="register-form__inp-email" placeholder="Insira seu E-mail"> 
-                <input type="tel" class="register-form__inp-fone" placeholder="Informe seu Celular"> 
-            </div>
-            
+            <section class="register-form">
+                <h2>Insira seus dados</h2>
 
-            
-            <div class="register-form__form2 none" id="none">
-                <input type="password" class="register-form__inp-pass" placeholder="Defina sua senha"> 
-                <input type="password" class="register-form__inp-passconfirm" placeholder="Confirmar senha"> 
-            </div> 
+                <div class="register-form__form1">
+                    <input type="text" class="register-form__inp-nome" placeholder="Informe seu Nome">
+                    <input type="text" class="register-form__inp-cpf" placeholder="Informe seu CPF">
+                    <input type="email" class="register-form__inp-email" placeholder="Insira seu E-mail">
+                    <input type="tel" class="register-form__inp-fone" placeholder="Informe seu Celular">
+                </div>
 
-            <div class="register-form__buttons">
-            <button id="register-form__btn-cancel"> CANCELAR </button>
-            <button id="register-form__btn-next"> PROXIMO </button>
+                <div class="register-form__form2" id="none">
+                    <input type="password" class="register-form__inp-pass" placeholder="Defina sua senha">
+                    <input type="password" class="register-form__inp-passconfirm" placeholder="Confirmar senha">
+                </div>
+
+                <div class="register-form__buttons">
+                    <button class="register-form__btn-cancel" id=""> CANCELAR </button>
+                    <button class="register-form__btn-next" id=""> PROXIMO </button>
+                    <button class="register-form__btn-enviar" id="none"> ENVIAR </button>
+                </div>
+            </section>
+
+            <section class="demo-field">
+                <img src="assets/graphs.png" alt="imagem-dos-graficos">
+            </section>
         </div>
-        </section>
-
-        <section class="demo-field">
-            <img src="assets/graphs.png" alt="imagem-dos-graficos">
-        </section>
-    </div>
     </main>
 
     <footer></footer>
-    
+    <script src="logic.js"></script>
 </body>
+
 </html>
